@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+	<head>
+		<link href="themes/default.css" rel="stylesheet" type="text/css">
+		<meta charset="utf-8">
+		<title>Home</title>
+		<div class="mainheaderwrapper">
+			<div class="mainheadercontainer">
+				<div class="mainheader">
+					<img src="images/mainBannerV2.png" alt="Main Header Banner" class="meainheaderimg">
+				</div>
+			</div>
+		</div>
+		<nav>
+			<ul class="topmenu">
+				<li class="topmenubuttons"><a class="active" href="index.html">Home</a></li>	
+			</ul>
+		</nav>
+	</head>
+	<body>
+		<article style="color:white;">
+			<h3>Today is: <p id="date"></p></h3>
+			<script>
+			date = document.getElementById("date");
+			date.innerHTML = new Date();
+			</script>
+			<script>
+				console.log("Module 1 Assignment!")
+			</script>
+			<br>
+			<header><h1><center>Rasmussen HTML Project</center></h1></header>
+			<br>
+		</article>
+	</body>
+	<footer>
+		<nav>
+			<ul class="footermenu">
+				<li class="footermenubuttons">Copyright 2023. All Rights Reserved.</li>
+			</ul>
+		</nav>
+	</footer>
+</html>
